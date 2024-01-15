@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(208, 229, 238) ;
+    font-family: sans-serif;
+}
+
+.container{
+    background-color: rgb(6, 124, 170);
+    margin: 22px;
+    width: 450px;
+    margin-left: 36%;
+    border-radius: 5px;
+
+}
+
+.qns{
+    display: flex;
+    margin-left: 22px;
+    color: white;
+    height: 55px;
+}
+
+.hide{
+    display: none;
+}
+
+button{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: white;
+    font-size: 33px;
+    margin-left: 150px;
+}
+
+.ans{
+    background-color: #fff;
+    margin-top: -11px;
+}
+
+.ans p{
+    padding: 15px;
+    margin-left: 6px;
+    display: none;
+}
+
+.active p{
+    display: block;
+}
